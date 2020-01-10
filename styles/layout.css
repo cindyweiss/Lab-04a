@@ -1,3 +1,4 @@
+
 body{
   width: 480px;
   }
@@ -123,3 +124,70 @@ footer {
   background-color: rgb(238, 52, 52);
   float: right;
 }
+
+
+* @media only screen and (min-width:481px){
+  body{
+    width: 767px;
+    }
+  
+  header {
+  border: 2px black solid;
+  width: 767px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  background-color: cadetblue;
+  }
+  
+  section :nth-of-type(1) {
+    border: 2px black solid;
+    width: 767px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    background-color: rgb(172, 204, 57);
+  }
+  section :nth-of-type(2), 
+    section :nth-of-type(3) {
+    border: 2px black solid;
+    width: 767px;
+    height: 125px;
+    text-align: center;
+    line-height: 125px;
+    background-color: rgb(187, 79, 88);
+  }
+  section :nth-of-type(3) {
+  background-color: rgb(92, 152, 231);
+  }
+  
+  section :nth-of-type(4), section :nth-of-type(5),section :nth-of-type(6), section :nth-of-type(7) {
+    border: 2px black solid;
+    width: 383.5px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    float: left;
+    background-color: darkturquoise;
+  }
+  section :nth-of-type(5){
+    background-color: rgb(221, 159, 33);
+  }
+  section :nth-of-type(6) {
+    background-color: greenyellow;
+  }
+  section :nth-of-type(7) {
+    background-color: hotpink;
+  }
+  
+  footer {
+    border: 2px black solid;
+    width: 767px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgb(214, 49, 219);
+    float: left;
+  }
+};  
+ 
